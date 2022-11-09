@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My web site</title>
+  <link rel="stylesheet" href="/Css/style.css">
 </head>
 <body>
 <a href="/index.html">Назад</a>
@@ -15,7 +16,7 @@
 <h2>Как работать на курсе?</h2>
 
 <ol>
-  <li>Изучить теги</li>
+  <li><a href="#explore">Изучить теги</a></li>
   <li>Попрактиковаться</li>
   <li>Выполнить домашнее задание</li>
 </ol>
@@ -32,7 +33,7 @@
 <p>Помимо этого,вы сверстаете фрагмент из интернет-магазина-главную страницу,страницу католога и страницу товара!</p>
 
 <figure>
-  <img src="/Img/2.7_site2.jpeg" alt="Дипломный проект">
+  <img src="/Img/2.7_site2.jpeg" alt="Дипломный проект" width="30%">
   <figcaption>Дипломный проект</figcaption>
 </figure>
 
@@ -53,22 +54,45 @@
   <li>Курсовая.Мини-проект в портофолио</li>
 </ul>
 
-<table border="1px" width="100%">
+<table border="1px" width="100%" id="explore">
   <caption>Таблица тегов</caption>
   <thead>
     <tr>
-      <th>Блочные</th>
-      <th>Строчные</th>
+      <th colspan="2">Блочные</th>
+      <th colspan="3"> Строчные</th>
     </tr>
     </thead>
     <tbody>
       <tr>
-        <td>&#60div&#62Див&#60div&#62</td>
+        <td>&#60div&#62Див&#60/div&#62</td>
         <td>Тег div - строительный кирпичик без смысловой нагрузки</td>
-        <td>&#60Спан&#62Див&#60Спан&#62</td>
-        <td></td>
+        <td>&#60span&#62Спан&#60/span&#62</td>
+        <td>Текстовый тег без смысловой нагрузки</td>
+      </tr>
+      <tr>
+        <td>&#60p&#62Параграф&#60/p&#62</td>
+        <td>Тег p - параграф текста</td>
+        <td>&#60a href="#"&#62Ссылка&#60/a&#62</td>
+        <td>Тег ссылки</td>
+      </tr>
+      <tr>
+        <td>&#60h1&#62Заголовок&#60/h1&#62</td>
+        <td>Тег заголовка.Различают 6 типов заголовков -h1-h6</td>
+        <td>&#60img src="#" alt="Картинка"&#62</td>
+        <td>Тег картинки</td>
+      </tr>
+      <tr>
+        <td>&#60ul&#62Список&#60/ul&#62</td>
+        <td>Тег ненумерованного списка.Есть так же нумерованный -ol</td>
+        <td>&#60i&#62Курсивный текст&#60/i&#62</td>
+        <td>Тег для выделения текста курсивом</td>
       </tr>
     </tbody>
+    <tfoot>
+      <tr>
+        <th colspan="4">Теперь вы знаете основные HTML-теги!</th>
+      </tr>
+    </tfoot>
 
 </table>
 </body>

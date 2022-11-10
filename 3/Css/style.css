@@ -147,3 +147,12 @@ td {
   padding-left: 200px;
   font-size: 18px;
 }
+
+.figure-img{
+  padding-left: 200px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+}

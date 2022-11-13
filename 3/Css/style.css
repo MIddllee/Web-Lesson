@@ -158,7 +158,7 @@ td {
 }
 
 .main-center {
-  width: 1920;
+  width: 1920px;
   margin: 0 auto;
 
 
@@ -253,5 +253,13 @@ text-align: right;
 
 }
 
+.btn-center {
+ text-align: center;
+}
+
+.btn{
+  color:#2f1ce4;
+  background-color:transparent;
 
 
+}

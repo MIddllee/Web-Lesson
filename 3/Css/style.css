@@ -42,7 +42,8 @@
 body {
   margin: 0;
   font-family: 'Gilroy', sans-serif;
-  
+
+
 
 }
 
@@ -177,20 +178,22 @@ td {
 }
 
 .title-one {
+  margin: 0 auto;
   width: 424px;
   height: 42px;
   letter-spacing: 0px;
   color: #222020;
   font-weight: 800;
   font-family: "Gilroy";
+  text-align: center;
+  margin-bottom: 20px;
 
 
 
 }
 
 .nav{
-  padding-left: 370px;
-  margin-top:87px;
+ padding-left: 600px;
 
 }
 
@@ -281,8 +284,6 @@ border-color: #2f1ce4;
 background-image:url(/3/Img/Фигура\ 1\ \(1\).png);
 background-position: bottom;
 background-repeat:no-repeat;
-background-size:cover;
-
 
 
 }

@@ -42,6 +42,8 @@
 body {
   margin: 0;
   font-family: 'Gilroy', sans-serif;
+  
+
 }
 
 a {
@@ -159,14 +161,16 @@ td {
 
 .main-center {
   width: 1920px;
+  height: 2230;
   margin: 0 auto;
+
 
 
 }
 
 .main {
   width: 1021px;
-  height: 1078px;
+  height: 1990px;
   margin: 0 auto;
   margin-top: 112px;
 
@@ -194,7 +198,7 @@ td {
   padding: 0;
   list-style: none;
   width: 485px;
-  height: 505px;
+  height: 500px;
   filter: drop-shadow(-2.853px 0.927px 10px
   rgba(83,83,83,0.31));
   background-color:#ffffff;
@@ -259,7 +263,26 @@ text-align: right;
 
 .btn{
   color:#2f1ce4;
-  background-color:transparent;
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+
+
+
+
+}
+
+.btn-color{
+border-color: #2f1ce4;
+}
+
+.footer-img {
+background-image:url(/3/Img/Фигура\ 1\ \(1\).png);
+background-position: bottom;
+background-repeat:no-repeat;
+background-size:cover;
+
 
 
 }

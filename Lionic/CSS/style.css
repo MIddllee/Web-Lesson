@@ -187,3 +187,15 @@ html {
     background-size: auto 100%;
     background-color: transparent;
 }
+
+.section-contacts-icon-gps {
+    background-image: url('/Lionic/img/gps.png');
+}
+
+.section-contacts-icon-phone {
+    background-image: url('/Lionic/img/phone.png');
+}
+
+.section-contacts-icon-mail {
+    background-image: url('/Lionic/img/mail.png');
+}

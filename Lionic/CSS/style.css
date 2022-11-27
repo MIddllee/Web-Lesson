@@ -181,9 +181,9 @@ html {
 .section-contacts-icon{
     display: block;
     margin-bottom: 25px;
-    height: 30px;
+    height: 26px;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: center left;
     background-size: auto 100%;
     background-color: transparent;
 }
@@ -198,4 +198,11 @@ html {
 
 .section-contacts-icon-mail {
     background-image: url('/Lionic/img/mail.png');
+    background-size: auto 19px;
+}
+
+.section-contacts-heading{
+    display: block;
+    margin-bottom: 40px;
+
 }

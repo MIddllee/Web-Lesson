@@ -123,4 +123,67 @@ html {
 .section-do-item:not(:last-child) {
     margin-right: 30px;
 }
+/*Clients*/
 
+.section-clients {
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.section-clients-list{
+    display: flex;
+}
+
+
+.section-clients-item{
+    flex: 1 1 33.33%;
+}
+
+.section-clients-item:not(last-child){
+    margin-right: 30px;
+}
+.section-clients-user{
+    display: flex;
+    align-items: center;
+}
+
+.section-clients-avatar{
+    width: 60px;
+    height:60px;
+    margin-right: 15px;
+    border: 2px solid #3172b9;
+    border-radius: 50%;
+}
+
+/*Contacts*/
+
+.section-contacts{
+    padding-top: 85px;
+    padding-bottom: 95px;
+}
+
+
+.section-contacts-list{
+    display: flex;
+    margin-top: 43px;
+
+}
+
+.section-contacts-item{
+    flex: 1 1 33.33%;
+
+}
+   
+.section-contacts-info{
+    max-width: 250px;
+}
+
+.section-contacts-icon{
+    display: block;
+    margin-bottom: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: auto 100%;
+    background-color: transparent;
+}

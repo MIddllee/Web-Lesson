@@ -1,7 +1,7 @@
 a{
     text-decoration: none;
     
-    
+
 }
 
 
@@ -15,3 +15,11 @@ a{
 
 /*Header*/
 
+.header
+.container{
+    display:flex;
+}
+
+.header {
+    margin-top: 50px;
+}

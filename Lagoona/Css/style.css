@@ -4,11 +4,39 @@ a{
     color: black;
 }
 
-/*Header*/
-
-
 .container{
     max-width: 1200px;
     margin-left: auto;
-    margin-right:   auto;
+    margin-right: auto;
+}
+
+
+/*Header*/
+
+.header
+.container{
+    display: flex;
+}
+
+.logo{
+    margin-top: 30px;
+}
+
+.header-contact{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+
+.header-right{
+    display: flex;
+   flex-flow: row;
+   justify-content: flex-end;
+}
+
+.header-cabinet{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
 }

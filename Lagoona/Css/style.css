@@ -1,6 +1,66 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
 .container{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     
 }
+
+/*Header*/
+
+
+.contact-header{
+    display: inline-block;
+}
+
+
+.logo{
+    margin-top: 30px;
+
+}
+
+.header-contact{
+    margin-left: 40px;
+    
+}
+
+.header-right {
+    display: inline-block;
+    float: right;
+    
+    
+
+    
+}
+
+.nav-list {
+    display: flex;
+    padding-left: 0px;;
+    margin-top: 30px;
+    
+    
+    
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+} 
+
+
+
+ .header-btn{
+   position: relative;
+   left: 320px;
+   padding-left: 5px;
+   
+ }

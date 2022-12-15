@@ -1,97 +1,12 @@
-a {
+a{
     text-decoration: none;
-    color: black;
-}
-
-ul{
-    list-style: none;
 }
 
 
 
 .container{
     max-width: 1200px;
-    margin-left: auto;
     margin-right: auto;
-    
+    margin-left: auto;
 }
 
-/*Header*/
-
-
-.contact-header{
-    display: inline-block;
-}
-
-
-.logo{
-    margin-top: 30px;
-
-}
-
-.header-contact{
-    margin-left: 40px;
-    
-}
-
-.header-right {
-    display: inline-block;
-    float: right;
-    
-    
-
-    
-}
-
-.nav-list {
-    display: flex;
-    padding-left: 0px;;
-    margin-top: 30px;
-    
-    
-    
-}
-
-.nav-item:not(:last-child) {
-    margin-right: 50px;
-} 
-
-
-
- .header-btn{
-   position: relative;
-   left: 320px;
-   padding-left: 5px;
-   
- }
-
- /*Main*/
-
-
-.section-main{
-    margin-top: 45px;
-}
-
-
- .hero-container {
-    width: 1200px;
-    height: 600px;
- }
-
- .section-one{
-    margin-top: 30px;
- }
-
- .section-two{
-    
- }
- .section-three{ 
-   display: flex;
-    flex-direction: column;
-    float: right;
-    
- }
-
- .aboutUs {
-    margin-top: 70px;
- }
